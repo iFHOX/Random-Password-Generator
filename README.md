@@ -21,7 +21,8 @@ As the name suggests, this is a random password generator that runs in the termi
 - 1 Uppercase letter.
 - 1 Lowercase letter.
 - 1 Symbol.
-- 1 Digit
+- 1 Digit.
+
 This project ensures the password generated is secure by using SecureRandom. Unlike Math.random(), whose output can be predicted from observed values, SecureRandom is designed to be unpredictable.
 Security depends on length; the longer the password, the more secure it is.
 
