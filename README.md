@@ -27,7 +27,7 @@ Security depends on length; the longer the password (like 8-12 characters), the 
 
 ## Features
 
-- **Length check:** Passwords generated must have at least 4 characters. Otherwise, the user will be asked to provide input again.
+- **Length check:** Passwords generated must have at least 8 characters. Otherwise, the user will be asked to provide input again.
 - **Ensures combination of characters:** As mentioned in the about section, it will always have at least 1 Uppercase and Lowercase letters, 1 Symbol and 1 Digit in the generation of the password.
 - **Use of SecureRandom for security:** SecureRandom uses a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG) to ensure each password generation is secure enough for the user.
 
@@ -65,9 +65,9 @@ You have a couple of inputs to choose from, with their respective feedback:
 
 | Input | Expected result |
 |-------|-----------------|
-| n >= 4 (any number) | a randomly generated password made of n characters greater than 4 |
+| n >= 8 (any number) | a randomly generated password made of n characters greater than 8 |
 | "abc" | Please enter a number |
-| any number less than 4 | Your password must be at least 4 characters long! |
+| any number less than 8 | Your password must be at least 8 characters long! |
 
 ---
 

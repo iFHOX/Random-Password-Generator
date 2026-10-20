@@ -27,8 +27,8 @@ public class Main {
                     continue;
                 }
                 int lengthOfPass = scanner.nextInt();
-                if (lengthOfPass <= 3) {
-                    System.out.println("Your password must be at least 4 characters long!");
+                if (lengthOfPass < 8) {
+                    System.out.println("Your password must be at least 8 characters long!");
                 } else {
                     String password = generatePassword(lengthOfPass);
                     System.out.println("Password generated! Your password is " + password);
