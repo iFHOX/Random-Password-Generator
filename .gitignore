@@ -9,7 +9,7 @@ out/
 
 ## Java
 
-.jar
+*.jar
 
 ### Eclipse ###
 .apt_generated
