@@ -23,12 +23,12 @@ As the name suggests, this is a random password generator that runs in the termi
 - 1 Symbol.
 - 1 Digit
 This project ensures the password generated is secure by using SecureRandom. Unlike Math.random(), whose output can be predicted from observed values, SecureRandom is designed to be unpredictable.
-Security depends on length; the longer the password (like 8-12 characters), the more secure it is.
+Security depends on length; the longer the password, the more secure it is.
 
 ## Features
 
 - **Length check:** Passwords generated must have at least 8 characters. Otherwise, the user will be asked to provide input again.
-- **Ensures a combination of characters:** As mentioned in the about section, it will always have at least 1 Uppercase and Lowercase letters, 1 Symbol and 1 Digit in the generation of the password.
+- **Ensures a combination of characters:** As mentioned in the about section, it will always have at least 1 Uppercase and 1 lowercase letter, 1 symbol, and 1 Digit in the generation of the password.
 - **Use of SecureRandom for security:** SecureRandom uses a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG) to ensure each password generation is secure enough for the user.
 
 ## Demo
@@ -50,6 +50,8 @@ Test cases (only numeric input, minimum length)
 ### Build and Run
 
 ```bash
+# open your terminal
+# use cd to go to the folder of the app, then go inside of src. Then compile and run
 # compile
 javac Main.java
 
@@ -65,7 +67,7 @@ You have a couple of inputs to choose from, with their respective feedback:
 
 | Input | Expected result |
 |-------|-----------------|
-| n >= 8 (any number) | a randomly generated password made of n characters greater than 8 |
+| n >= 8 (any number) | a randomly generated password made of n characters greater or equal than 8 |
 | "abc" | Please enter a number |
 | any number less than 8 | Your password must be at least 8 characters long! |
 
