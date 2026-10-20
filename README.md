@@ -1,6 +1,6 @@
 # Random Password Generator
 
-* A Java CLI password generator using SecureRandom, guaranteeing at least one lowercase letter, uppercase letter, digit, and symbol. A project made while bored in class.*
+*A Java CLI password generator using SecureRandom, guaranteeing at least one lowercase letter, uppercase letter, digit, and symbol. A project made while bored in class.*
 ---
 
 ## Table of Contents
