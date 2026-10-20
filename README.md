@@ -12,7 +12,6 @@
   - [Prerequisites](#prerequisites)
   - [Build and Run](#build-and-run)
 - [Usage](#usage)
-- [License](#license)
 
 ---
 
@@ -68,12 +67,6 @@ Paragraph explaining how to use the project.
 | "abc" | Please enter a number |
 | any number less than 4 | Your password must be at least 4 characters long! |
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for details.
-
 ---
 
 Made by [Daniel Cuevas]([https://github.com/iFHOX])
-
-</div>
