@@ -28,18 +28,18 @@ Security depends on length; the longer the password (like 8-12 characters), the 
 ## Features
 
 - **Length check:** Passwords generated must have at least 8 characters. Otherwise, the user will be asked to provide input again.
-- **Ensures combination of characters:** As mentioned in the about section, it will always have at least 1 Uppercase and Lowercase letters, 1 Symbol and 1 Digit in the generation of the password.
+- **Ensures a combination of characters:** As mentioned in the about section, it will always have at least 1 Uppercase and Lowercase letters, 1 Symbol and 1 Digit in the generation of the password.
 - **Use of SecureRandom for security:** SecureRandom uses a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG) to ensure each password generation is secure enough for the user.
 
 ## Demo
 
 Generation of a password:
 
-<img width="637" height="64" alt="image" src="https://github.com/user-attachments/assets/c84e83a8-074e-47a6-b7ba-e9992333d530" />
+<img width="614" height="68" alt="image" src="https://github.com/user-attachments/assets/ab3bca7d-9476-433e-aaaf-cd0ec0ea4b0e" />
 
 Test cases (only numeric input, minimum length)
 
-<img width="651" height="172" alt="image" src="https://github.com/user-attachments/assets/0611dadc-4692-4efc-b715-88cec859edee" />
+<img width="645" height="178" alt="image" src="https://github.com/user-attachments/assets/69094eb9-56c0-4d6d-869e-3ef4463b5a30" />
 
 ## Getting Started
 
